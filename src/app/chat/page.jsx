@@ -26,7 +26,7 @@ export default function TerminalGalaxyChat() {
 
 
   useEffect(() => {
-    const space = document.getElementById('space-background');
+    const space = spaceRef.current;
     if (space) {
       const space = spaceRef.current;
       for (let i = 0; i < 100; i++) {
